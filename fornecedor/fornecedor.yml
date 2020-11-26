@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: apartamento141
+    username: root
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/fornecedor?useTimezone=true&serverTimezone=UTC
+    #    url: jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=UTC
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
